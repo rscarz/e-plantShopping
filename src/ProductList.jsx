@@ -271,7 +271,7 @@ function ProductList() {
                         <a href="/" style={{ textDecoration: 'none' }}>
                             <div>
                                 <h3 style={{ color: 'white' }}>miVivero</h3>
-                                <i style={{ color: 'white' }}>A little piece of nature for your home.</i>
+                                <i style={{ color: 'white' }}>Your garden, our passion.</i>
                             </div>
                         </a>
                     </div>
