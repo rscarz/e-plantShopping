@@ -216,8 +216,15 @@ body {
   }
   
   .product-button.added-to-cart {
-    background-color: grey; /* Grey when product is added */
+    background-color: grey;    
   }
+
+  .product-button.disabled {
+    background-color: #d3d3d3; /* Color gris para el botón deshabilitado */
+    color: #a9a9a9; /* Color de texto gris */
+    cursor: not-allowed; /* Cambia el cursor para indicar que no se puede hacer clic */
+}
+
   @media (max-width: 1200px) {
     .product-card {
       flex: 1 1 calc(33.33% - 20px); /* Adjust width for 3 cards per row with 20px gap on medium screens */
